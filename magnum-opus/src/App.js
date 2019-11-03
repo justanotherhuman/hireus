@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import node from './logos/node.svg'
+import graphQL from './logos/GraphQL.svg'
+import Postgresql from './logos/Postgresql.svg'
 import './App.css';
 
 function App() {
@@ -28,33 +31,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={node} className="App-logo" alt="logo" />
+        <img src={graphQL} className="App-logo" alt="logo" />
+        <img src={Postgresql} className="App-logo" alt="logo" />
       <h1>Here are some links to resources that I use</h1>
-        {/* <a
-          className="App-link"
-          href="https://www.glassdoor.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          glassdoor
-        </a>
-
-        <a
-          className="App-link"
-          href="https://www.linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedIn
-        </a>
-
-        <a
-          className="App-link"
-          href="https://www.builtinaustin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          builtin ATX
-        </a> */}
       {links}
       </header>
     </div>
